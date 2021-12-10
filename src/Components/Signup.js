@@ -43,16 +43,7 @@ function Signup() {
               required
             />
           </div>
-          <div className="form-group">
-            <label className="input-label">Email Id   </label>
-            <input
-            className="form-control"
-              type="email" 
-              placeholder="Email " 
-              onChange={(e) => setMail(e.target.value)}
-              required
-            />
-          </div>
+         
           <div className="form-group">
             <label>Mobile No</label>
             <input
